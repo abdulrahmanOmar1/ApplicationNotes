@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="#69C7D3"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/welcome_to_tasktracker_app"
+        style="@style/textstyle" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="294dp"
+        android:layout_height="359dp"
+        android:layout_gravity="center"
+        android:src="@drawable/backg"
+        android:translationY="45dp" />
+
+
+    <ListView
+        android:id="@+id/mainlist"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:entries="@array/home"
+        android:fadingEdge="vertical"
+        android:textAlignment="center"
+        android:translationY="15dp" />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:onClick="onClickaAdd"
+        android:text="Add Task"
+        android:translationY="-15dp"
+        />
+
+
+
+
+</LinearLayout>

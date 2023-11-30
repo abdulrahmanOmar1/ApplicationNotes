@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTask"
+    android:layout_margin="1dp"
+    android:background="#69C7D3"
+    android:orientation="vertical"
+    android:padding="10dp"  >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="clickback"
+        android:text="Back"
+        ></Button>
+
+
+    <TextView
+        style="@style/textstyle"
+        android:layout_marginBottom="50dp"
+        android:text="@string/add_task_page"
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Name"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="100dp"
+            android:hint="Task Description"
+            />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClickaddTask"
+        android:text="Add Task" />
+
+
+
+</LinearLayout>

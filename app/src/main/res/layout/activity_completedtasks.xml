@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="#69C7D3"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context=".completedtasks">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="clickbackCompleted"
+        android:text="Back"
+        android:translationY="10dp"></Button>
+
+
+    <TextView
+        style="@style/textstyle"
+        android:text="Completed Tasks"
+        android:translationY="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgTDo"
+        android:layout_width="294dp"
+        android:layout_height="263dp"
+        android:layout_gravity="center"
+        android:src="@drawable/complete"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <ListView
+        android:id="@+id/CompletedTasklist"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:choiceMode="multipleChoice"
+        android:dividerHeight="3dp"
+        android:textSize="40dp"
+        ></ListView>
+
+</LinearLayout>
+
+

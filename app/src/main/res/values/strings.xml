@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AssignmentOne</string>
+    <string name="done">done</string>
+    <string name="welcome_to_tasktracker_app">Welcome to TaskTracker App</string>
+    <string name="add_task_page">Add task page</string>
+    <string-array name="home">
+        <item> To Do List</item>
+        <item>Completed Task List </item>
+    </string-array>
+</resources>

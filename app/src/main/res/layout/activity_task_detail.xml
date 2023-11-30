@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="#69C7D3"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".TaskDetail">
+    <TextView
+        style="@style/textstyle"
+        android:text="Task detal "
+        />
+    
+    <ImageView
+        android:id="@+id/imgdetail"
+        android:layout_width="294dp"
+        android:layout_height="272dp"
+        android:layout_gravity="center"
+        android:src="@drawable/imgdetail"
+        android:translationY="45dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:translationY="70dp"
+        style="@style/styledetail" />
+
+    <TextView
+        style="@style/styledetail"
+        android:id="@+id/txtDesc"
+        android:translationY="80dp"
+        />
+
+    <TextView
+        style="@style/styledetail"
+        android:id="@+id/dateid"
+        android:translationY="90dp"
+        ></TextView>
+
+
+</LinearLayout>
